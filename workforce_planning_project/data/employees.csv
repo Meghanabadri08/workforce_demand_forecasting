@@ -1,0 +1,101 @@
+employee_id,employee_name,role_id,department,fte,weekly_hours,employment_status,location,hire_date
+EMP-000001,Employee 00001,ROLE-007,Security,0.6,40.0,Active,Remote,2024-07-02 00:00:00
+EMP-000002,Employee 00002,ROLE-007,Quality Assurance,1.0,40.0,Active,Bengaluru,2026-02-21 00:00:00
+EMP-000003,Employee 00003,ROLE-002,Engineering,0.75,40.0,Active,Pune,2025-08-08 00:00:00
+EMP-000004,Employee 00004,ROLE-002,Security,1.0,40.0,Active,Bengaluru,2023-12-18 00:00:00
+EMP-000005,Employee 00005,ROLE-003,Data,1.0,40.0,Active,Pune,2023-11-19 00:00:00
+EMP-000006,Employee 00006,ROLE-004,Engineering,0.6,40.0,Active,Remote,2018-08-14 00:00:00
+EMP-000007,Employee 00007,ROLE-004,Security,1.0,40.0,Active,Hyderabad,2018-07-05 00:00:00
+EMP-000008,Employee 00008,ROLE-001,Data,1.0,40.0,Active,Pune,2026-03-02 00:00:00
+EMP-000009,Employee 00009,ROLE-004,Engineering,1.0,40.0,Active,Bengaluru,2022-05-05 00:00:00
+EMP-000010,Employee 00010,ROLE-003,Engineering,0.75,40.0,Active,Pune,2020-10-31 00:00:00
+EMP-000011,Employee 00011,ROLE-007,Engineering,1.0,40.0,Active,Hyderabad,2019-03-11 00:00:00
+EMP-000012,Employee 00012,ROLE-001,Operations,1.0,40.0,Active,Hyderabad,2026-06-25 00:00:00
+EMP-000013,Employee 00013,ROLE-002,Data,1.0,40.0,Active,Chennai,2023-05-07 00:00:00
+EMP-000014,Employee 00014,ROLE-001,Quality Assurance,0.5,40.0,On Leave,Hyderabad,2023-03-19 00:00:00
+EMP-000015,Employee 00015,ROLE-004,Operations,1.0,40.0,Active,Chennai,2021-01-23 00:00:00
+EMP-000016,Employee 00016,ROLE-010,Data,1.0,40.0,Active,Hyderabad,2022-11-04 00:00:00
+EMP-000017,Employee 00017,ROLE-005,Product,1.0,40.0,Active,Hyderabad,2022-07-12 00:00:00
+EMP-000018,Employee 00018,ROLE-002,Engineering,0.8,40.0,Active,Pune,2024-11-16 00:00:00
+EMP-000019,Employee 00019,ROLE-003,Quality Assurance,1.0,40.0,Active,Remote,2019-07-21 00:00:00
+EMP-000020,Employee 00020,ROLE-007,Engineering,1.0,40.0,Active,Bengaluru,2021-08-24 00:00:00
+EMP-000021,Employee 00021,ROLE-004,Data,1.0,40.0,Active,Chennai,2024-05-20 00:00:00
+EMP-000022,Employee 00022,ROLE-007,Quality Assurance,0.8,40.0,Active,Chennai,2023-04-21 00:00:00
+EMP-000023,Employee 00023,ROLE-002,Operations,1.0,40.0,Active,Remote,2025-04-09 00:00:00
+EMP-000024,Employee 00024,ROLE-010,Engineering,1.0,40.0,Active,Hyderabad,2026-03-02 00:00:00
+EMP-000025,Employee 00025,ROLE-001,Operations,0.5,40.0,Active,Hyderabad,2021-09-17 00:00:00
+EMP-000026,Employee 00026,ROLE-004,Engineering,1.0,40.0,Active,Chennai,2018-06-30 00:00:00
+EMP-000027,Employee 00027,ROLE-002,Product,0.75,40.0,Active,Hyderabad,2023-05-08 00:00:00
+EMP-000028,Employee 00028,ROLE-010,Operations,1.0,40.0,Active,Pune,2021-11-08 00:00:00
+EMP-000029,Employee 00029,ROLE-006,Product,1.0,40.0,Active,Pune,2022-06-04 00:00:00
+EMP-000030,Employee 00030,ROLE-008,Security,0.75,40.0,Active,Remote,2023-05-20 00:00:00
+EMP-000031,Employee 00031,ROLE-005,Quality Assurance,1.0,40.0,Active,Chennai,2022-05-13 00:00:00
+EMP-000032,Employee 00032,ROLE-005,Engineering,0.5,40.0,Active,Bengaluru,2023-10-12 00:00:00
+EMP-000033,Employee 00033,ROLE-004,Quality Assurance,0.5,40.0,Active,Remote,2021-12-28 00:00:00
+EMP-000034,Employee 00034,ROLE-006,Engineering,1.0,40.0,Active,Pune,2025-06-20 00:00:00
+EMP-000035,Employee 00035,ROLE-010,Data,0.75,40.0,On Leave,Hyderabad,2019-10-02 00:00:00
+EMP-000036,Employee 00036,ROLE-003,Engineering,1.0,40.0,Active,Chennai,2023-05-02 00:00:00
+EMP-000037,Employee 00037,ROLE-008,Product,1.0,40.0,Active,Remote,2025-12-31 00:00:00
+EMP-000038,Employee 00038,ROLE-008,Engineering,1.0,40.0,Active,Hyderabad,2025-04-23 00:00:00
+EMP-000039,Employee 00039,ROLE-008,Engineering,1.0,40.0,Active,Remote,2023-08-29 00:00:00
+EMP-000040,Employee 00040,ROLE-001,Quality Assurance,0.8,40.0,Active,Pune,2023-11-11 00:00:00
+EMP-000041,Employee 00041,ROLE-007,Security,1.0,40.0,Active,Hyderabad,2022-09-28 00:00:00
+EMP-000042,Employee 00042,ROLE-005,Quality Assurance,1.0,40.0,Active,Hyderabad,2025-08-20 00:00:00
+EMP-000043,Employee 00043,ROLE-007,Operations,1.0,40.0,Active,Hyderabad,2024-01-20 00:00:00
+EMP-000044,Employee 00044,ROLE-005,Data,1.0,40.0,Active,Pune,2023-10-24 00:00:00
+EMP-000045,Employee 00045,ROLE-004,Operations,0.5,40.0,Active,Remote,2019-09-24 00:00:00
+EMP-000046,Employee 00046,ROLE-010,Product,1.0,40.0,Active,Bengaluru,2022-11-11 00:00:00
+EMP-000047,Employee 00047,ROLE-003,Product,1.0,40.0,Active,Pune,2024-05-10 00:00:00
+EMP-000048,Employee 00048,ROLE-002,Security,1.0,40.0,On Leave,Remote,2019-04-06 00:00:00
+EMP-000049,Employee 00049,ROLE-008,Engineering,0.6,40.0,On Leave,Hyderabad,2018-01-17 00:00:00
+EMP-000050,Employee 00050,ROLE-005,Operations,1.0,40.0,Active,Pune,2018-06-12 00:00:00
+EMP-000051,Employee 00051,ROLE-004,Data,1.0,40.0,Active,Chennai,2024-12-24 00:00:00
+EMP-000052,Employee 00052,ROLE-008,Security,0.75,40.0,Active,Hyderabad,2019-03-07 00:00:00
+EMP-000053,Employee 00053,ROLE-006,Engineering,0.8,40.0,Active,Chennai,2024-07-08 00:00:00
+EMP-000054,Employee 00054,ROLE-010,Product,1.0,40.0,Active,Chennai,2023-12-06 00:00:00
+EMP-000055,Employee 00055,ROLE-008,Engineering,1.0,40.0,Active,Hyderabad,2022-01-06 00:00:00
+EMP-000056,Employee 00056,ROLE-001,Operations,1.0,40.0,Active,Bengaluru,2024-11-01 00:00:00
+EMP-000057,Employee 00057,ROLE-005,Engineering,0.8,40.0,Active,Chennai,2020-01-25 00:00:00
+EMP-000058,Employee 00058,ROLE-005,Product,1.0,40.0,On Leave,Bengaluru,2018-12-05 00:00:00
+EMP-000059,Employee 00059,ROLE-005,Security,0.6,40.0,Active,Remote,2020-11-13 00:00:00
+EMP-000060,Employee 00060,ROLE-006,Operations,1.0,40.0,On Leave,Pune,2023-01-11 00:00:00
+EMP-000061,Employee 00061,ROLE-005,Quality Assurance,0.8,40.0,Active,Bengaluru,2021-10-18 00:00:00
+EMP-000062,Employee 00062,ROLE-010,Operations,1.0,40.0,Active,Remote,2021-11-27 00:00:00
+EMP-000063,Employee 00063,ROLE-004,Quality Assurance,1.0,40.0,Active,Pune,2024-01-17 00:00:00
+EMP-000064,Employee 00064,ROLE-006,Security,1.0,40.0,Active,Bengaluru,2024-09-19 00:00:00
+EMP-000065,Employee 00065,ROLE-004,Quality Assurance,1.0,40.0,Active,Hyderabad,2019-01-14 00:00:00
+EMP-000066,Employee 00066,ROLE-008,Operations,0.8,40.0,Active,Chennai,2021-02-04 00:00:00
+EMP-000067,Employee 00067,ROLE-007,Data,1.0,40.0,Active,Hyderabad,2021-11-07 00:00:00
+EMP-000068,Employee 00068,ROLE-010,Quality Assurance,1.0,40.0,Active,Remote,2025-02-22 00:00:00
+EMP-000069,Employee 00069,ROLE-009,Product,0.5,40.0,Active,Hyderabad,2018-11-29 00:00:00
+EMP-000070,Employee 00070,ROLE-002,Operations,1.0,40.0,On Leave,Bengaluru,2022-08-05 00:00:00
+EMP-000071,Employee 00071,ROLE-008,Security,1.0,40.0,Active,Chennai,2020-03-16 00:00:00
+EMP-000072,Employee 00072,ROLE-008,Operations,1.0,40.0,Active,Bengaluru,2024-01-09 00:00:00
+EMP-000073,Employee 00073,ROLE-006,Operations,0.75,40.0,Active,Bengaluru,2018-12-13 00:00:00
+EMP-000074,Employee 00074,ROLE-006,Engineering,1.0,40.0,Active,Chennai,2020-03-24 00:00:00
+EMP-000075,Employee 00075,ROLE-008,Data,1.0,40.0,Active,Remote,2018-05-09 00:00:00
+EMP-000076,Employee 00076,ROLE-001,Engineering,0.6,40.0,Active,Bengaluru,2018-10-14 00:00:00
+EMP-000077,Employee 00077,ROLE-003,Quality Assurance,1.0,40.0,Active,Pune,2020-07-18 00:00:00
+EMP-000078,Employee 00078,ROLE-005,Data,0.5,40.0,Active,Chennai,2024-04-25 00:00:00
+EMP-000079,Employee 00079,ROLE-007,Product,1.0,40.0,Active,Bengaluru,2022-04-26 00:00:00
+EMP-000080,Employee 00080,ROLE-010,Engineering,1.0,40.0,Active,Chennai,2018-02-02 00:00:00
+EMP-000081,Employee 00081,ROLE-002,Quality Assurance,1.0,40.0,Active,Remote,2022-05-01 00:00:00
+EMP-000082,Employee 00082,ROLE-001,Data,1.0,40.0,Active,Pune,2022-09-27 00:00:00
+EMP-000083,Employee 00083,ROLE-010,Data,1.0,40.0,Active,Hyderabad,2019-12-08 00:00:00
+EMP-000084,Employee 00084,ROLE-008,Data,1.0,40.0,Active,Remote,2022-03-20 00:00:00
+EMP-000085,Employee 00085,ROLE-006,Product,1.0,40.0,Active,Remote,2022-11-27 00:00:00
+EMP-000086,Employee 00086,ROLE-005,Security,1.0,40.0,Active,Remote,2019-05-27 00:00:00
+EMP-000087,Employee 00087,ROLE-008,Product,1.0,40.0,Active,Bengaluru,2025-04-20 00:00:00
+EMP-000088,Employee 00088,ROLE-007,Operations,1.0,40.0,Active,Hyderabad,2021-10-13 00:00:00
+EMP-000089,Employee 00089,ROLE-007,Security,1.0,40.0,Active,Hyderabad,2025-08-24 00:00:00
+EMP-000090,Employee 00090,ROLE-009,Data,1.0,40.0,On Leave,Pune,2026-08-05 00:00:00
+EMP-000091,Employee 00091,ROLE-010,Quality Assurance,1.0,40.0,Active,Pune,2021-03-05 00:00:00
+EMP-000092,Employee 00092,ROLE-007,Quality Assurance,1.0,40.0,Active,Bengaluru,2020-07-19 00:00:00
+EMP-000093,Employee 00093,ROLE-002,Security,1.0,40.0,Active,Bengaluru,2021-12-01 00:00:00
+EMP-000094,Employee 00094,ROLE-010,Operations,0.5,40.0,Active,Chennai,2019-01-22 00:00:00
+EMP-000095,Employee 00095,ROLE-005,Quality Assurance,1.0,40.0,Active,Remote,2026-03-05 00:00:00
+EMP-000096,Employee 00096,ROLE-008,Engineering,0.8,40.0,Active,Remote,2025-06-21 00:00:00
+EMP-000097,Employee 00097,ROLE-007,Product,1.0,40.0,Active,Hyderabad,2021-06-12 00:00:00
+EMP-000098,Employee 00098,ROLE-004,Operations,1.0,40.0,Active,Hyderabad,2026-02-08 00:00:00
+EMP-000099,Employee 00099,ROLE-007,Operations,1.0,40.0,Active,Bengaluru,2021-12-17 00:00:00
+EMP-000100,Employee 00100,ROLE-004,Engineering,0.75,40.0,Active,Bengaluru,2021-06-14 00:00:00

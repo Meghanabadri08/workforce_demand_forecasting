@@ -1,0 +1,147 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "employees primary key unique",
+      "passed": true,
+      "details": "100 rows"
+    },
+    {
+      "check": "roles primary key unique",
+      "passed": true,
+      "details": "10 rows"
+    },
+    {
+      "check": "skills primary key unique",
+      "passed": true,
+      "details": "20 rows"
+    },
+    {
+      "check": "employee_skills primary key unique",
+      "passed": true,
+      "details": "522 rows"
+    },
+    {
+      "check": "projects primary key unique",
+      "passed": true,
+      "details": "10 rows"
+    },
+    {
+      "check": "demand_plans primary key unique",
+      "passed": true,
+      "details": "243 rows"
+    },
+    {
+      "check": "demand_skills primary key unique",
+      "passed": true,
+      "details": "243 rows"
+    },
+    {
+      "check": "allocations primary key unique",
+      "passed": true,
+      "details": "280 rows"
+    },
+    {
+      "check": "availability primary key unique",
+      "passed": true,
+      "details": "1200 rows"
+    },
+    {
+      "check": "training primary key unique",
+      "passed": true,
+      "details": "20 rows"
+    },
+    {
+      "check": "gap_analysis primary key unique",
+      "passed": true,
+      "details": "243 rows"
+    },
+    {
+      "check": "employee_skills.employee_id -> employees.employee_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "employee_skills.skill_id -> skills.skill_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "demand_plans.project_id -> projects.project_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "demand_plans.role_id -> roles.role_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "demand_skills.demand_id -> demand_plans.demand_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "demand_skills.skill_id -> skills.skill_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "allocations.employee_id -> employees.employee_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "allocations.project_id -> projects.project_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "availability.employee_id -> employees.employee_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "training.employee_id -> employees.employee_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "training.skill_id -> skills.skill_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "gap_analysis.demand_id -> demand_plans.demand_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "gap_analysis.skill_id -> skills.skill_id",
+      "passed": true,
+      "details": "foreign key integrity"
+    },
+    {
+      "check": "proficiency within 1..5",
+      "passed": true,
+      "details": "allowed proficiency scale"
+    },
+    {
+      "check": "capacity arithmetic",
+      "passed": true,
+      "details": "scheduled minus leave"
+    },
+    {
+      "check": "allocation hours non-negative",
+      "passed": true,
+      "details": "all allocation rows"
+    },
+    {
+      "check": "demand hours positive",
+      "passed": true,
+      "details": "all demand rows"
+    }
+  ],
+  "passed_count": 28,
+  "total_checks": 28
+}

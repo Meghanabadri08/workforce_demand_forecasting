@@ -1,0 +1,26 @@
+[
+  {
+    "issue_id": "ISS-000001",
+    "issue_type": "ALLOCATION_OVER_CAPACITY",
+    "affected_entity": "Allocation",
+    "affected_id": "ALLOC-2026-00000001",
+    "expected_result": "Flag allocated hours above net capacity",
+    "expected_action": "Reallocate or reduce allocation"
+  },
+  {
+    "issue_id": "ISS-000002",
+    "issue_type": "STALE_SKILL_TREATED_CURRENT",
+    "affected_entity": "EmployeeSkill",
+    "affected_id": "ES-00000001",
+    "expected_result": "Mark stale and exclude from verified-qualified capacity",
+    "expected_action": "Re-verify or train"
+  },
+  {
+    "issue_id": "ISS-000003",
+    "issue_type": "DEMAND_DOUBLE_COUNTED",
+    "affected_entity": "DemandPlan",
+    "affected_id": "DEM-DUP-000003",
+    "expected_result": "Detect duplicate underlying project/role/period demand",
+    "expected_action": "Exclude duplicate from forecast total"
+  }
+]

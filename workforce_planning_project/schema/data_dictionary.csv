@@ -1,0 +1,78 @@
+entity,field,type,required,allowed_values_or_units,unique,validation_rule
+Employee,employee_id,string,yes,EMP-000001 format,yes,Primary key
+Employee,employee_name,string,yes,Synthetic placeholder,no,Not blank
+Employee,role_id,string,yes,Existing ROLE ID,no,Foreign key to Role
+Employee,department,string,yes,Department enum,no,Must be known department
+Employee,fte,float,yes,0-1 fraction,no,Greater than 0 and at most 1
+Employee,weekly_hours,float,yes,hours/week,no,Greater than 0
+Employee,employment_status,string,yes,Active|On Leave|Inactive,no,Allowed enum
+Employee,location,string,yes,Office/Remote category,no,Not blank
+Employee,hire_date,date,yes,YYYY-MM-DD,no,Valid date
+Role,role_id,string,yes,ROLE-001 format,yes,Primary key
+Role,role_name,string,yes,Role taxonomy,no,Unique role name
+Role,role_family,string,yes,Category,no,Not blank
+Role,status,string,yes,Active|Inactive,no,Allowed enum
+Skill,skill_id,string,yes,SKL-000001 format,yes,Primary key
+Skill,skill_name,string,yes,Skill taxonomy,no,Unique skill name
+Skill,category,string,yes,Technical|Professional,no,Allowed enum
+Skill,validity_months,integer,yes,months,no,Positive integer
+Skill,status,string,yes,Active|Inactive,no,Allowed enum
+EmployeeSkill,employee_skill_id,string,yes,ES-00000001 format,yes,Primary key
+EmployeeSkill,employee_id,string,yes,Existing employee ID,no,Foreign key to Employee
+EmployeeSkill,skill_id,string,yes,Existing skill ID,no,Foreign key to Skill
+EmployeeSkill,proficiency,integer,yes,1-5,no,Allowed proficiency scale
+EmployeeSkill,last_verified_date,date,yes,YYYY-MM-DD,no,Valid date
+EmployeeSkill,expiry_date,date,yes,YYYY-MM-DD,no,Must not precede verification date except labelled anomalies
+EmployeeSkill,verification_status,string,yes,Verified|Pending|Expired,no,Allowed lifecycle state
+Project,project_id,string,yes,PRJ-2026-000001 format,yes,Primary key
+Project,project_name,string,yes,Synthetic project label,no,Not blank
+Project,client_group,string,yes,Internal|Enterprise|SMB|Public Sector,no,Allowed enum
+Project,start_date,date,yes,YYYY-MM-DD,no,Start date <= end date
+Project,end_date,date,yes,YYYY-MM-DD,no,End date >= start date
+Project,status,string,yes,Planned|Active|On Hold|Completed,no,Allowed enum
+Project,priority,string,yes,Low|Medium|High,no,Allowed enum
+DemandPlan,demand_id,string,yes,Deterministic unique demand ID,yes,Primary key
+DemandPlan,project_id,string,yes,Existing project ID,no,Foreign key to Project
+DemandPlan,role_id,string,yes,Existing role ID,no,Foreign key to Role
+DemandPlan,period_start,date,yes,YYYY-MM-DD,no,Start <= period end
+DemandPlan,period_end,date,yes,YYYY-MM-DD,no,Period end >= start
+DemandPlan,required_hours,float,yes,hours,no,Positive
+DemandPlan,status,string,yes,Draft|Approved|Cancelled,no,Allowed enum
+DemandPlan,source_version,integer,yes,Version number,no,Positive integer
+DemandSkill,demand_skill_id,string,yes,DS-00000001 format,yes,Primary key
+DemandSkill,demand_id,string,yes,Existing demand ID,no,Foreign key to DemandPlan
+DemandSkill,skill_id,string,yes,Existing skill ID,no,Foreign key to Skill
+DemandSkill,minimum_proficiency,integer,yes,1-5,no,Allowed proficiency scale
+DemandSkill,required_people,integer,yes,people,no,Positive
+Allocation,allocation_id,string,yes,ALLOC-2026-00000001 format,yes,Primary key
+Allocation,employee_id,string,yes,Existing employee ID,no,Foreign key to Employee
+Allocation,project_id,string,yes,Existing project ID,no,Foreign key to Project
+Allocation,period_start,date,yes,YYYY-MM-DD,no,Period start <= end
+Allocation,period_end,date,yes,YYYY-MM-DD,no,Period end >= start
+Allocation,allocated_hours,float,yes,hours,no,Non-negative; may exceed capacity only as labelled anomaly
+Allocation,allocation_status,string,yes,Planned|Confirmed|Cancelled,no,Allowed lifecycle state
+Allocation,event_version,integer,yes,Positive version,no,History/version marker
+Availability,availability_id,string,yes,AV-00000001 format,yes,Primary key
+Availability,employee_id,string,yes,Existing employee ID,no,Foreign key to Employee
+Availability,period_start,date,yes,YYYY-MM-DD,no,Start <= end
+Availability,period_end,date,yes,YYYY-MM-DD,no,End date >= start
+Availability,scheduled_hours,float,yes,hours,no,Non-negative
+Availability,leave_hours,float,yes,hours,no,Between 0 and scheduled hours
+Availability,net_capacity_hours,float,yes,hours,no,Scheduled minus leave
+Availability,availability_status,string,yes,Available|Unavailable,no,Allowed enum
+Training,training_id,string,yes,TRN-00000001 format,yes,Primary key
+Training,employee_id,string,yes,Existing employee ID,no,Foreign key to Employee
+Training,skill_id,string,yes,Existing skill ID,no,Foreign key to Skill
+Training,planned_start,date,yes,YYYY-MM-DD,no,Start <= end
+Training,planned_end,date,yes,YYYY-MM-DD,no,End date >= start
+Training,hours,float,yes,hours,no,Positive
+Training,status,string,yes,Planned|In Progress|Completed,no,Allowed lifecycle state
+Training,outcome_proficiency,integer,no,1-5,no,Required when completed in production
+GapAnalysis,gap_id,string,yes,GAP-00000001 format,yes,Primary key
+GapAnalysis,demand_id,string,yes,Existing demand ID,no,Foreign key to DemandPlan
+GapAnalysis,skill_id,string,yes,Existing skill ID,no,Foreign key to Skill
+GapAnalysis,required_people,integer,yes,people,no,Non-negative
+GapAnalysis,qualified_employee_count,integer,yes,people,no,Non-negative
+GapAnalysis,gap_people,integer,yes,people,no,Max(0, required - available qualified)
+GapAnalysis,severity,string,yes,None|Low|Medium|High,no,Derived from gap_people
+GapAnalysis,recommended_action,string,yes,Rule-derived action,no,Must cite rule/assumptions

@@ -1,0 +1,52 @@
+{
+  "seed": 20261022,
+  "scale": "starter",
+  "generated_on": "2026-10-26",
+  "synthetic_only": true,
+  "tables": {
+    "employees": {
+      "rows": 100,
+      "sha256": "55edad37e58ab0cb8df0720c10e7d502029e340ed3e701134227fb0075bfca52"
+    },
+    "roles": {
+      "rows": 10,
+      "sha256": "847bc61ad28919f3aebdb8a8783ded553799e00fb1573de978ac9ce92d8cec7d"
+    },
+    "skills": {
+      "rows": 20,
+      "sha256": "605df9fd6c1756729367ecfb096d0ea7d133104c18408f688cafe24d6ab5e129"
+    },
+    "employee_skills": {
+      "rows": 522,
+      "sha256": "4a9794d35b964558e7e086cafd429d720d6650134ccebcf59157d86de4b4d638"
+    },
+    "projects": {
+      "rows": 10,
+      "sha256": "612f3516f68b32b300b5d92201f18e09cc5163247286432c2bfeeb75d54740e3"
+    },
+    "demand_plans": {
+      "rows": 243,
+      "sha256": "5bf5226f285ccd94b0e4a07bf29a57186964b3ff2d0ce1ae28583c5aa5179f98"
+    },
+    "demand_skills": {
+      "rows": 243,
+      "sha256": "8ac96a8e1670c3409ddcb28cd6ed71f5ba6b742a078b55209d21deb687849f85"
+    },
+    "allocations": {
+      "rows": 280,
+      "sha256": "9953a78d270f6075870c93de7a69c4a702db53cb4dc156ebf83ceb8a017d94c9"
+    },
+    "availability": {
+      "rows": 1200,
+      "sha256": "9e11b171937f27f480e7c3311d9f48e2dbb8ef5d9c87e9f2a2e8e5e56f89545f"
+    },
+    "training": {
+      "rows": 20,
+      "sha256": "db4b96a254a046c8191e908d96b46f74db7692e2f441130e78faecaf88b1544e"
+    },
+    "gap_analysis": {
+      "rows": 243,
+      "sha256": "5cbf95abb65aab950707ce09b6806cc2e3546c13d1fb17b092ccc82094865c28"
+    }
+  }
+}

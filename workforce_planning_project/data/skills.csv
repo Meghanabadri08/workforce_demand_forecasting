@@ -1,0 +1,21 @@
+skill_id,skill_name,category,validity_months,status
+SKL-000001,Python,Technical,6,Active
+SKL-000002,SQL,Technical,6,Active
+SKL-000003,Java,Technical,18,Active
+SKL-000004,JavaScript,Professional,6,Active
+SKL-000005,HTML/CSS,Technical,24,Active
+SKL-000006,Machine Learning,Technical,6,Active
+SKL-000007,Data Analysis,Technical,36,Active
+SKL-000008,Cloud,Professional,12,Active
+SKL-000009,Testing,Technical,36,Active
+SKL-000010,Communication,Technical,6,Active
+SKL-000011,Project Management,Technical,12,Active
+SKL-000012,Cybersecurity,Professional,12,Active
+SKL-000013,React,Technical,6,Active
+SKL-000014,Git,Technical,24,Active
+SKL-000015,Statistics,Technical,24,Active
+SKL-000016,Data Visualization,Professional,18,Active
+SKL-000017,API Design,Technical,6,Active
+SKL-000018,Linux,Technical,6,Active
+SKL-000019,Excel,Technical,18,Active
+SKL-000020,Docker,Professional,12,Active

@@ -1,0 +1,11 @@
+project_id,project_name,client_group,start_date,end_date,status,priority
+PRJ-2026-000001,Project 0001,Enterprise,2026-01-01,2026-12-31,Active,Medium
+PRJ-2026-000002,Project 0002,Public Sector,2026-01-01,2026-12-31,Planned,Medium
+PRJ-2026-000003,Project 0003,SMB,2026-01-01,2026-12-31,Planned,Medium
+PRJ-2026-000004,Project 0004,SMB,2026-01-01,2026-12-31,Active,High
+PRJ-2026-000005,Project 0005,Internal,2026-01-01,2026-12-31,Planned,Medium
+PRJ-2026-000006,Project 0006,Public Sector,2026-01-01,2026-12-31,Planned,Low
+PRJ-2026-000007,Project 0007,Internal,2026-01-01,2026-12-31,Planned,Medium
+PRJ-2026-000008,Project 0008,Public Sector,2026-01-01,2026-12-31,Planned,Medium
+PRJ-2026-000009,Project 0009,Public Sector,2026-01-01,2026-12-31,Active,Medium
+PRJ-2026-000010,Project 0010,SMB,2026-01-01,2026-12-31,On Hold,Medium

@@ -1,0 +1,11 @@
+role_id,role_name,role_family,status
+ROLE-001,Data Analyst,Data,Active
+ROLE-002,Software Engineer,Software,Active
+ROLE-003,ML Engineer,ML,Active
+ROLE-004,Project Manager,Project,Active
+ROLE-005,QA Engineer,QA,Active
+ROLE-006,Frontend Developer,Frontend,Active
+ROLE-007,Backend Developer,Backend,Active
+ROLE-008,Cloud Engineer,Cloud,Active
+ROLE-009,Business Analyst,Business,Active
+ROLE-010,Cybersecurity Analyst,Cybersecurity,Active

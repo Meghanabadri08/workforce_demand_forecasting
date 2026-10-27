@@ -1,0 +1,30 @@
+# AI Usage Disclosure
+
+## Tool used
+
+- **ChatGPT (OpenAI):** used as a conversational assistant for project planning, code/setup guidance, debugging help, documentation drafting, and explanations of Python/VS Code commands.
+- **Other AI tools:** not documented in this file because no verifiable prompt transcript from other tools was provided here. The project author must add any other tools actually used before submission.
+
+## Where AI accelerated the work
+
+- Helped translate the workforce-planning brief into a prototype scope and suggested a project structure.
+- Assisted with Python environment setup and dependency installation instructions.
+- Helped draft data-generation, validation, and Streamlit execution steps.
+- Helped prepare README, limitations, and verification guidance.
+
+## Where AI assistance was substantial
+
+AI-generated code and documentation were used as a starting point for the prototype. This means the author must not represent all implementation details as independently authored without review. Before submission, the author should run every command, inspect source files and data, correct defects, and be ready to explain the implementation in their own words.
+
+## What the author should personally review and validate
+
+- Run the application from a clean environment using only the README instructions.
+- Check generated row counts, key uniqueness, foreign-key references, arithmetic rules and anomaly labels.
+- Verify the dashboard's figures against the CSV source data.
+- Confirm that each claimed anomaly detector actually detects the intended case; distinguish injected labels from detected results.
+- Review dependencies and remove local environment folders, credentials and unrelated files from GitHub.
+- Add prompts from any other AI tool or ChatGPT conversation that is not represented in `AI_PROMPT_HISTORY.md`.
+
+## Known limitation of this disclosure
+
+This document is based on the ChatGPT project conversation available when it was prepared. It is not an independently verified account-wide export of all AI interactions. If other chats or AI tools were used, the author must add those records; do not claim this file is exhaustive until that is done.

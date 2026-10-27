@@ -13,10 +13,3 @@ This file records the principal prompts visible in the ChatGPT project conversat
 | 5 | Suggest using Google Colab to avoid local installation and provide fresh code for dataset generation and a dashboard-style notebook. | Explore an alternative execution environment. | A notebook-oriented code path was suggested. It is an alternative, not the canonical project execution path; the README documents the packaged Streamlit application. |
 | 6 | Prepare a README describing the project, step-by-step execution from installing Python and VS Code, all commands, code, prompt history and supporting artefacts, and address the submission rules for executable code, public GitHub, transparent AI use, reasoning, validation and limitations. | Produce submission documentation aligned to the candidate guidelines. | Used to prepare `README.md`, `AI_USAGE.md`, `AI_PROMPT_HISTORY.md`, and `docs/DESIGN_AND_VALIDATION.md`. |
 
-## Author completion checklist
-
-- [ ] Review this table and edit summaries so they accurately represent the prompts actually submitted.
-- [ ] Add relevant prompts from other ChatGPT conversations if they contributed to the project.
-- [ ] Add every other AI tool used (tool name, prompt, purpose, outcome and author review).
-- [ ] Do not include passwords, API keys, access tokens, or other secrets.
-- [ ] Keep a copy of the actual prompts if the assessment requires a complete prompt record rather than this principal-prompt summary.

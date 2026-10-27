@@ -1,0 +1,22 @@
+# AI Prompt History
+
+This file records the principal prompts visible in the ChatGPT project conversation and summarises their purpose. It is a reasonable working record, **not a verified export of every AI interaction across all tools or accounts**. Add any omitted prompts and any prompts sent to other tools before submission. Do not invent prompt records.
+
+## Tool: ChatGPT (OpenAI)
+
+| # | Prompt / request (faithful summary) | Purpose | Result / how it was used |
+|---|---|---|---|
+| 1 | Build a workforce-planning project for forecasting demand by role/project and identifying skill gaps, utilization risks, and hiring/training options, with entities, deterministic IDs, baseline data volumes, labelled anomalies, exports, validation, manifest, and reproducibility. | Define the project scope and requirements. | Used to shape the synthetic-data generator, schema reference, data dictionary, validation report, dashboard and supporting artefacts. |
+| 2 | Help set up and run the project locally in VS Code, including Python, virtual environment, dependencies, data generation, validation and Streamlit. | Environment setup and execution troubleshooting. | Led to the step-by-step Windows PowerShell instructions; the author should verify commands on their own machine. |
+| 3 | Explain how to install Python and what to do after installation. | Python environment setup. | Installation instructions were provided; Python 3.13.x is recommended in this README for package compatibility rather than assuming Python 3.15 support. |
+| 4 | Troubleshoot the `requirements.txt` error shown in the VS Code screenshot. | Resolve wrong working-directory issue. | The screenshot showed the terminal at the parent `new` directory while `requirements.txt` was inside `workforce_planning_project`; the proposed fix was to open/change into the project root. |
+| 5 | Suggest using Google Colab to avoid local installation and provide fresh code for dataset generation and a dashboard-style notebook. | Explore an alternative execution environment. | A notebook-oriented code path was suggested. It is an alternative, not the canonical project execution path; the README documents the packaged Streamlit application. |
+| 6 | Prepare a README describing the project, step-by-step execution from installing Python and VS Code, all commands, code, prompt history and supporting artefacts, and address the submission rules for executable code, public GitHub, transparent AI use, reasoning, validation and limitations. | Produce submission documentation aligned to the candidate guidelines. | Used to prepare `README.md`, `AI_USAGE.md`, `AI_PROMPT_HISTORY.md`, and `docs/DESIGN_AND_VALIDATION.md`. |
+
+## Author completion checklist
+
+- [ ] Review this table and edit summaries so they accurately represent the prompts actually submitted.
+- [ ] Add relevant prompts from other ChatGPT conversations if they contributed to the project.
+- [ ] Add every other AI tool used (tool name, prompt, purpose, outcome and author review).
+- [ ] Do not include passwords, API keys, access tokens, or other secrets.
+- [ ] Keep a copy of the actual prompts if the assessment requires a complete prompt record rather than this principal-prompt summary.

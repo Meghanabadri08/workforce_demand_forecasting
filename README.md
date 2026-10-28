@@ -217,3 +217,4 @@ The submission guidelines request a public GitHub repository and meaningful comm
 4. If real historical demand becomes available and approved for use, create time-based train/validation/test splits and evaluate a forecasting baseline with suitable metrics.
 5. Add reviewed role-to-skill mappings, work calendars, allocation conflict logic, hiring/training costs and scenario comparisons.
 6. Publish to GitHub and complete the prompt history with all other AI tools actually used.
+   ## 13. deployment link (OUTPUT) : https://workforcedemandforecasting-b3dbqbcf9wtdyzvjbnmwyu.streamlit.app/
